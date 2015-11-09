@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900);
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.remark-slide-content {
+  background-color: rgba(203, 56, 55, 1);
+  color: white;
+}
+
+code {
+  background-color: #4e4e4e;
+  color: #e6e6e6;
+  padding: 15px;
+}
