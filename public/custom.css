@@ -14,3 +14,8 @@ code {
   color: #e6e6e6;
   padding: 15px;
 }
+
+li > code {
+  background-color: none;
+  padding: 0;
+}

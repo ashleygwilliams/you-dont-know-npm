@@ -50,11 +50,17 @@ class: top left
 ## create a package.json
 # `npm init`
 
+- ### knows your deps from node_modules
+- ### knows your repository from git repo
+- ### always adds keys, never deletes
+
 ---
 class: top, left
 
 ## create a package.json with defaults
 # `npm init --yes`
+
+![yes](public/img/yes.gif)
 
 ---
 class: top, left
@@ -67,8 +73,34 @@ class: top, left
 ---
 class: top, left
 
+## lock down your deps
+# `npm shrinkwrap`
+
+- ### deploy to production EXACTLY what you used in dev
+- ### locks every version of every package in node_modules
+
+---
+class: center, middle
+
+# why not a default feature?
+
+---
+class: top, center
+
+# we believe in semver
+
+![want to believe](public/img/wanttobelieve.jpg)
+
+---
+class: top, left
+
 ## semver made easy
-# `npm version <major | minor | patch>`
+# `npm version <type>`
+### `types: major, minor, patch`
+
+- ### major: breaking changes
+- ### minor: feature add
+- ### patch: bug fix, docs
 
 ---
 class: top, left
