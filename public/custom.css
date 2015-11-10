@@ -19,3 +19,7 @@ li > code {
   background-color: none;
   padding: 0;
 }
+
+a:visited, a:active, a {
+  color: white;
+}
