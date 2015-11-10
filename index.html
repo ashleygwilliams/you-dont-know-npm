@@ -134,24 +134,36 @@ class: top, left
 ---
 class: top, left
 
-## run scripts
-# `npm test`
-# `npm start`
-# `npm run $anything`
+### run scripts
+## `npm test`
+## `npm start`
+## `npm run $anything`
+
+### Automate CLI workflows, e.g. build steps, migrations
+
+![theater](public/img/theater.png)
 
 ---
 class: top, left
 ## lifecycle events
 
-- publish:   prepublish, publish, postpublish
-- install:      preinstall, install, postinstall
-- uninstall: preuninstall, uninstall, postuninstall
-- version:   preversion, version, postversion
-- test:          pretest, test, posttest
-- stop:        prestop, stop, poststop
-- start:        prestart, start, poststart
-- restart:    prerestart, restart, postrestart
+## `publish, install, uninstall, version, test, stop, start, restart`
+## `pre, post`
+
+![seedling](public/img/seedling.png)
+![plant](public/img/plant.png)
+![tree](public/img/tree.png)
  
+---
+class: top, left
+
+## run scripts are composable
+#### `"db:migrate": "knex migrate:latest"`
+#### `"db:seed": "knex seed:run"`
+#### `"db:reset": "npm run db:migrate && npm run db:seed"`
+
+![score](public/img/score.png)
+
 ---
 class: middle, center
 
