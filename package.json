@@ -1,0 +1,23 @@
+{
+  "name": "you-dont-know-npm",
+  "version": "1.0.0",
+  "description": "> a deck to take you beyond npm install",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashleygwilliams/you-dont-know-npm.git"
+  },
+  "keywords": [],
+  "author": "ag_dubs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashleygwilliams/you-dont-know-npm/issues"
+  },
+  "homepage": "https://github.com/ashleygwilliams/you-dont-know-npm",
+  "devDependencies": {
+    "live-server": "^0.9.0"
+  }
+}
